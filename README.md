@@ -34,3 +34,15 @@ That's how our program will be structured at last
 
 ![](screenshots/screenshot03.png)
 
+## 4. The server code:
+
+1. Write the code - comments are provided in the code for clarity
+2. **Go to venv dir, where the server side code is**: cd venv
+2. **Next we need to enable cross origin request, which allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources:** pip3 install FLASK_CORS
+3. **Run server:** python3 main.py
+4. The server is running at http://127.0.0.1:8080 as indicated in the terminal - load the address in your web browser
+
+![](screenshots/screenshot04.png)
+
+![](screenshots/screenshot05.png)
+
